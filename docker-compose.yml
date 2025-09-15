@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  smart_inventory:
+    build: .
+    container_name: smart_inventory
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped

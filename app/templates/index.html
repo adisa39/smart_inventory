@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Inventory Counter</title>
+  <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+  <h2>📸 Smart Inventory Counter</h2>
+
+  <!-- Camera input -->
+  <form id="uploadForm">
+    <input type="file" id="cameraInput" accept="image/*" capture="environment"/>
+    <button type="submit">Detect</button>
+  </form>
+
+  <!-- Results -->
+  <div id="results"></div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
